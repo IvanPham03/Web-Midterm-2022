@@ -1,14 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "@atlaskit/css-reset";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-
-ReactDOM.render(
-  <React.StrictMode>
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import React from 'react';
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
     <App />
-  </React.StrictMode>,
-  document.getElementById("root")
 );
-
-reportWebVitals();
