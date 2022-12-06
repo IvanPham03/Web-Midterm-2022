@@ -1,26 +1,43 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
-import logo from '../../../assets/images/logo.svg';
-import user from '../../../assets/images/user.svg';
-
-
+import { BrowserRouter, Link, Route, Routes} from "react-router-dom";
+import logo from '../../../assets/images/logo.svg'
+import Inspiration from '../../Inspiration/inspiration';
+import Stories from '../../Stories/stories';
+import Product from '../../Product/product';
+import Contact from '../../Contact/contact';
 function header() {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="p-3">
-            <Container>
-                <Navbar.Brand href="#"><img src={logo} alt='item'/></Navbar.Brand>
-                <Nav>
-                    <Nav.Link href='#stories'>STORIES</Nav.Link>
-                    <Nav.Link href='#product'>PRODUCT</Nav.Link>
-                    <Nav.Link href='#contact'>CONTACT</Nav.Link>
-                </Nav>
-            </Container>
-        </Navbar>
+        <>
+            <div>
+                <img src={logo} alt='logo'></img>
+                <Product />
+            </div>
+            <div>
+                <BrowserRouter>
+                    <nav className='main-nav'>
+                        <ul>
+                            <li>
+                                <Link to='/inspiration'>Inspiration</Link>
+                            </li>
+                            <li>
+                                <Link to='/stories'>Stories</Link>
+                            </li>
+                            <li>
+                                <Link to='/product'>Product</Link>
+                            </li>
+                            <li>
+                                <Link to='/contact'>Contact</Link>
+                            </li>
+                        </ul>
+                    </nav>
+                    <Routes>
+                        <Route path='/' element={<Inspiration />}/>
+                        <Route path='/product' element={<Product />}/>
+                        <Route path='/stories' element={<Stories />}/>
+                        <Route path='/contact' element={<Contact />}/>
+                    </Routes>
+                </BrowserRouter>
+            </div>
+        </>
     );
 }
-
 export default header;
