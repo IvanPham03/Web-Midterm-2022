@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
-import styles from './inspiration.module.css'
-import coffee from '../../assets/images/intro2.svg'
-import friends from '../../assets/images/intro3.svg'
+import React, { Component } from 'react';
+import styles from './inspiration.module.css';
+import TextSlider from './TextSlider.js'
 export default class inspiration extends Component {
   render() {
     return (
@@ -17,16 +16,7 @@ export default class inspiration extends Component {
             <button>ORDER HERE</button>
           </div>
         </div>
-        <div className={styles['lastIntro']}>
-          <div className={styles['friends']}>
-            <img src={friends} alt='friends'></img>
-            <p>Friends</p>
-          </div>
-          <div className={styles['coffee']}>
-            <img src={coffee} alt='coffee'></img>
-            <p>Coffee</p>
-          </div>
-        </div>
+          <TextSlider />
       </div>
     );
   }

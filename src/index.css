@@ -2,7 +2,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #161616;
-    /* background-color: red; */
+    background-image: url('./assets/images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
+    background-attachment: fixed;
+    background-color:rgba(0, 0, 0, 0.0);
 }
