@@ -1,12 +1,14 @@
-import React from "react";
+import React, { Component } from 'react';
 import DefaultLayout from './layouts/DefaultLayout/defaultLayout';
+import { BrowserRouter } from 'react-router-dom';
 
-export default function App() {
-  return (
-      <>
-        <h1>App</h1>
-        <DefaultLayout /> 
-      </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <DefaultLayout />
+      </BrowserRouter>
+    );
+  }
 }
-
+export default App;

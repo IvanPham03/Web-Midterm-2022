@@ -1,7 +1,13 @@
-export default function product() {
-    return (
-        <h1>
-            product
-        </h1>
-    );
+import React, { Component } from 'react';
+
+class product extends Component {
+    render() {
+        return (
+            <div>
+                product
+            </div>
+        );
+    }
 }
+
+export default product;

@@ -1,0 +1,64 @@
+.intro {
+  text-align: center;
+  height: 600px;
+  background-color: #fff;
+  color: #000;
+  padding-top: 200px;
+}
+
+.intro p:first-child {
+  font-size: 54px;
+}
+.intro p:last-child {
+  font-size: 34px;
+}
+
+.imageIntro {
+  background-image: url('../../assets/images/intro1.svg');
+  width: 100vw;
+  background-repeat: no-repeat;
+  height: 750px;
+  background-size: cover;
+}
+.imageIntro p {
+  padding-top: 200px;
+  font-size: 40px;
+}
+.imageIntro div {
+    padding-left: 100px;
+
+}
+.imageIntro div button {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+.imageIntro div button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.lastIntro {
+    background-color: #fff;
+    color: #000;
+}
+
+.lastIntro p {
+    font-size: 40px;
+    font-weight: 500;
+    display: block;
+}
+.friends {
+    display: flex;
+    flex-direction: row-reverse; 
+}
+.coffee {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.friends {
+    padding: 100px;
+
+}

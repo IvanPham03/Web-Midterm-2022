@@ -1,0 +1,38 @@
+.header {
+  display: flex;  
+  margin: 20px auto;
+  line-height: 60px;
+  height: 60px;
+  width: 1140px;
+}
+
+.image-user {
+    width: 30px;
+    height: 30px;
+    color: #fff !important;
+    border: solid 1px #fff;
+    border-radius: 50%;
+}
+.user {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.user:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.navbar {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.imagelogo {
+  display: flex;
+  height: 98%;
+  width: 98%;
+  align-items: center;
+  margin: 0 auto;
+}

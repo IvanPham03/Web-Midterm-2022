@@ -1,7 +1,9 @@
-export default function stories() {
+import React, { Component } from 'react'
+
+export default class stories extends Component {
+  render() {
     return (
-        <h1>
-            stories
-        </h1>
-    );
+      <div>stories</div>
+    )
+  }
 }

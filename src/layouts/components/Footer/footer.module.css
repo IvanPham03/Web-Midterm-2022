@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    height: 300px;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.icon img {
+     margin-top: 100px;
+    padding: 0 10px;
+} 
+.icon img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
