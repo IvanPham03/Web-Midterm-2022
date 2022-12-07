@@ -1,0 +1,79 @@
+.contact .row{
+    display: flex;
+    background:var(--black);
+    flex-direction: row;
+    gap:1rem;
+    margin-left: 7em;
+    margin-right: 7rem;
+}
+.contact .row .column{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.contact h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+.contact .heading span{
+    color: #d3ad7f;
+}
+.contact .row .map{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:0 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
+}
+
+.contact .row form .inputBox span{
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    width: 100%;
+    padding:1rem;
+    font-size: 1.4rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
+.contact .row form .inputBox textarea{
+    width: 100%;
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
+}
+.contact .row .column .btn{
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1.4rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
