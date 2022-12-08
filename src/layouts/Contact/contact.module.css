@@ -20,6 +20,10 @@
 .contact .heading span{
     color: #d3ad7f;
 }
+.contact .heading {
+    padding-top: 100px;
+    margin-top: -10px;
+}
 .contact .row .map{
     height: 100%;
     width: 100%;
@@ -76,4 +80,10 @@
     color:#fff;
     background: var(--main-color);
     cursor: pointer;
+}
+
+.contact {
+    /* background-color: #161616; */
+    /* opacity: 0.9; */
+    padding-bottom: 50px;
 }

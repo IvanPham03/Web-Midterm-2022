@@ -2,10 +2,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('./assets/images/back.jpg');
-    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('./assets/images/back.jpeg'); 
     background-size: cover;
-    color: #ffffff;
     background-attachment: fixed;
-    background-color:rgba(0, 0, 0, 0.0);
+    background-repeat: no-repeat;
 }
+

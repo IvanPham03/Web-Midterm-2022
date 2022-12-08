@@ -1,11 +1,11 @@
 .intro {
   text-align: center;
-  height: 600px;
-  background-color: #fff;
-  color: rgb(0, 0, 0);
+  height: 800px;
+  color:  #fff;
   padding-top: 200px;
-  opacity: 0.6;
   font-weight: 600;
+  margin-top: 180px;
+  width: 100vw;
 }
 
 .intro p:first-child {
@@ -19,15 +19,16 @@
   background-image: url('../../assets/images/intro1.svg');
   width: 100vw;
   background-repeat: no-repeat;
-  height: 750px;
+  height: 800px;
   background-size: cover;
 }
 .imageIntro p {
   padding-top: 200px;
   font-size: 40px;
+  color: #fff;
 }
 .imageIntro div {
-    padding-left: 100px;
+    padding-left: 80px;
 
 }
 .imageIntro div button {
@@ -41,26 +42,11 @@
 }
 
 .lastIntro {
-    background-color: #fff;
-    color: #000;
+    color: #fff;
 }
 
 .lastIntro p {
     font-size: 40px;
     font-weight: 500;
     display: block;
-}
-.friends {
-    display: flex;
-    flex-direction: row-reverse; 
-}
-.coffee , .friends{
-    margin-top: 100px;
-    /* display: flex; */
-    /* flex-direction: row;  */
-}
-
-.friends {
-    padding: 100px;
-
 }

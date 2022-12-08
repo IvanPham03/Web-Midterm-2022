@@ -1,0 +1,27 @@
+.story {
+    margin: 50px 100px;
+    height: 500px;
+}
+.story img {
+    width: 600px;
+    height: 400px;
+}
+.story-text1 , .story-text2 {
+    display: inline-block;
+    width: 40%;
+    color: #fff;
+    font-size: 20px;
+}
+.story-text1 {
+    text-align: left;
+}
+.story-text2 {
+    text-align: right;
+    float: right;
+}
+.story-image1 {
+    float: right;
+}
+.story-image2 {
+    float: left;
+}

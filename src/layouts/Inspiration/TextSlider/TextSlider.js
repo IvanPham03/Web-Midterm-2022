@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './TextSlider.css';
-import quote from '../../assets/images/pngfind.com-quote-png-6127.png'
+import quote from '../../../assets/images/toppng.com-coffee-icon-decal-601x600.png'
 function TextSlider() {
 
   const words = [
@@ -17,7 +17,6 @@ function TextSlider() {
   }
   return (
     <>
-      <div></div>
       <div className="main">
         <div className="quote">
           <img src={quote} alt='quote'></img>

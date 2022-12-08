@@ -1,19 +1,31 @@
 .footer {
-    margin-top: -20px;
+    margin-top: 50px;
     text-align: center;
     height: 300px;
-    background-color: #161616;
+    position: relative;
+    background-color:  rgba(22, 22, 22, .5);
 }
 
 .text {
+    color: #fff;
     padding-top: 10px;
 }
 
 .icon img {
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0 10px;
 } 
 .icon img:hover {
     opacity: 0.5;
     cursor: pointer;
+}
+.line {
+    width: 1000px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.footer p {
+    width: 800px;
+    display: inline-block;
+    color: #fff;
 }
