@@ -1,87 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap");
 
 .product {
-    font-family: "Urbanist", sans-serif;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 10rem 0;
-    /* padding: auto; */
-    
- }
+  font-family: "Urbanist", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10rem 0;
+  /* padding: auto; */
+}
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 .img-box img {
-    display: block;
-    width: 100%;
-    height: 18rem;
-    object-fit: cover;
- }
+  display: block;
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
 .cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    grid-gap: 5rem;
-    text-align: center;
-    width: 80%;
-    margin: auto
- }
- 
- .card {
-    display: block;
-    overflow: hidden;
-    border-radius: 0.6rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-    cursor: pointer;
-    transition: 0.2s;
-    position: relative;
- }
- 
- .card-content {
-    position: absolute;
-    background-color: rgb(0 0 0 / 70%);
-    color: #ffffff;
-    bottom: 0;
-    width: 100%;
-    height: 30%;
-    padding: 0.2rem 0;
-    overflow: hidden ;
-    transition: 0.7s;
- }
- .card-content h3 {
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: capitalize;
- }
- 
- .card-content p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    padding: 1.2rem;
- }
- 
- .card-content:hover {
-    height: 100%;
-    transition: 0.7s;
- }
- .heading{
-   text-align: center;
-   color:#fff;
-   text-transform: uppercase;
-   padding-bottom: 3.5rem;
-   font-size: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 5rem;
+  text-align: center;
+  width: 80%;
+  margin: auto;
 }
 
-.heading span{
-   text-transform: uppercase;
-   color: #d3ad7f;
+.card {
+  display: block;
+  overflow: hidden;
+  border-radius: 0.6rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+}
+
+.card-content {
+  position: absolute;
+  background-color: rgb(0 0 0 / 70%);
+  color: #ffffff;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  padding: 0.2rem 0;
+  overflow: hidden;
+  transition: 0.7s;
+}
+.card-content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card-content p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 1.2rem;
+}
+
+.card-content:hover {
+  height: 100%;
+  transition: 0.7s;
+}
+.heading {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: #d3ad7f;
 }
 /* .buy{
    display: inline-block;
@@ -92,77 +91,39 @@
    cursor: pointer;
    border-radius: 5%;
 } */
-.buy:hover{
-   letter-spacing: .2rem;
+.buy:hover {
+  letter-spacing: 0.2rem;
 }
 button.buy {
-   background: #d3ad7f;
-   border: none;
-   height: 40px;
-   padding:.10rem 3rem;
-   color: #ffffff;
-   font-size: 1.7rem;
-   font-weight: 300;
-   border-radius: 5%;
-   
+  background: #d3ad7f;
+  border: none;
+  height: 40px;
+  padding: 0.1rem 3rem;
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: 300;
+  border-radius: 5%;
 }
 
 button.buy:hover {
-   cursor: pointer;
-   background: #d3ad7f;
+  cursor: pointer;
+  background: #d3ad7f;
 }
 
 button:active {
-   outline: none;
-   border: none;
+  outline: none;
+  border: none;
 }
 
-.product .fixed{
-   position: fixed;
-   bottom: 20rem;
-   right: 3rem;
-   border-radius: 100%;
-   width: auto;
-   text-align: center;
-   
+.product .fixed {
+  position: fixed;
+  bottom: 20rem;
+  right: 3rem;
+  border-radius: 100%;
+  width: auto;
+  text-align: center;
 }
 
 .cast p {
-   color: #fff;
+  color: #fff;
 }
-
-.buy {
-   position: relative;
-   background-color: #04AA6D;
-   border: none;
-   font-size: 28px;
-   color: #FFFFFF;
-   padding: 20px;
-   width: 200px;
-   text-align: center;
-   -webkit-transition-duration: 0.4s; /* Safari */
-   transition-duration: 0.4s;
-   text-decoration: none;
-   overflow: hidden;
-   cursor: pointer;
- }
- 
- .buy:after {
-   content: "";
-   background: #cecece;
-   display: block;
-   position: absolute;
-   padding-top: 300%;
-   padding-left: 350%;
-   margin-left: -50px!important;
-   margin-top: -120%;
-   opacity: 0;
-   transition: all 0.8s
- }
- 
- .buy:active:after {
-   padding: 0;
-   margin: 0;
-   opacity: 1;
-   transition: 0s
- }
