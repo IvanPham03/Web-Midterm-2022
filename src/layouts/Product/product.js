@@ -28,7 +28,7 @@ export default class product extends Component {
           <div className={styles["cards"]}>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item1}/>
+                  <img src={item1} alt='item1'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -39,7 +39,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item2}/>
+                  <img src={item2} alt='item2'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -49,7 +49,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item3}/>
+                  <img src={item3} alt='item3'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -59,7 +59,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item4}/>
+                  <img src={item4} alt='item4'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -69,7 +69,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item5}/>
+                  <img src={item5} alt='item5'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -79,7 +79,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item6}/>
+                  <img src={item6} alt='item6'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -89,7 +89,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item7}/>
+                  <img src={item7} alt='item7'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -99,7 +99,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item8}/>
+                  <img src={item8} alt='item8'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -109,7 +109,7 @@ export default class product extends Component {
             </div>
             <div className={styles["card"]}>
               <div className={styles["img-box"]}>
-                  <img src={item9}/>
+                  <img src={item9} alt='item9'/>
               </div>
               <div className={styles["card-content"]}>
                 <h3 className={styles["card-heading"]}>Dominion Dark Blend</h3>
@@ -123,7 +123,7 @@ export default class product extends Component {
         <div className={styles['cast']}>
             <div className={styles['fixed']}>
               <div className={styles['state']}>
-              <AiOutlineShoppingCart size={50}/>
+              <AiOutlineShoppingCart size={50} color={'white'}/>
                 <p> No. of items	:	{this.state.value}<p>Sub Total	:{(this.state.value)*40}$ 	</p></p>
               </div>
             </div>
