@@ -7,6 +7,7 @@ import Stories from '../Stories/stories';
 import Product from '../Product/product';
 import Contact from '../Contact/contact';
 
+
 export default class defaultLayout extends Component {
   render() {
     return (

@@ -1,6 +1,6 @@
 .contact .row{
     display: flex;
-    background:#161616;
+    /* background:#161616; */
     flex-direction: row;
     gap:1rem;
     margin-left: 7em;
@@ -15,7 +15,7 @@
 .contact h1{
     text-align: center;
     text-transform: uppercase;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #fff;
     margin: 2rem;
 }
@@ -40,7 +40,7 @@
 
 .contact .row form h3{
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     color:#fff;
 }
 
@@ -50,13 +50,12 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     border: #fff;
-    background:#010103;
     border:.1rem solid rgba(255,255,255,.3);
 }
 .contact .row form .inputBox input{
     width: 100%;
     padding:1rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color:#fff;
     text-transform: none;
     background:none;
@@ -65,7 +64,7 @@
 .contact .row form .inputBox textarea{
     width: 100%;
     padding:1rem;
-    font-size: 1.7rem;
+    font-size: 1rem;
     color:#fff;
     text-transform: none;
     background:none;
@@ -74,7 +73,7 @@
 .btn{
     display: inline-block;
     padding:.9rem 3rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color:#fff;
     background: #d3ad7f;
     cursor: pointer;

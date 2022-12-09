@@ -1,16 +1,16 @@
 .our-coffee {
   margin-top: 100px;
   background-color: #bebebe;
-  height: 800px;
+  min-height: 700px;
   display: block;
 }
 .our-coffee-text {
   color: #333333 !important;
-  font-size: 40px;
+  font-size: 35px;
   width: 400px;
-  padding: 40px 120px;
+  padding-left: 120px;
   margin-top: 10px;
-
+  padding-top: 40px;
 }
 
 .our-coffee-1 {
@@ -26,15 +26,15 @@
 .our-coffee-2 img {
   min-width: 400px;
   margin-left: 250px;
-  margin-top: -50px;
-  max-height: 450px;
+  margin-top: 50px;
+  max-height: 400px;
   object-fit: cover;
 }
 .our-coffee-2 p {
   width: 500px;
   float: right;
   margin-right: 100px;
-  margin-top: -100px;
+  margin-top: -200px;
   font-size: 20px;
   text-align: left;
 }

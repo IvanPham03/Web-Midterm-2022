@@ -27,11 +27,7 @@ export default class inspiration extends Component {
             </div></span>
           </Animator>
         </ScrollPage>
-        <ScrollPage>
-          <Animator animation={batch(Move(), Fade())}>
-            <span><OurCafe /></span>
-          </Animator>
-        </ScrollPage>
+        <OurCafe />
         <ScrollPage>
           <Animator animation={batch(Fade(), Move(), MoveOut(0, -200))}>
             <span><TextSlider /></span>

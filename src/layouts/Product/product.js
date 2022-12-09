@@ -123,8 +123,8 @@ export default class product extends Component {
         <div className={styles['cast']}>
             <div className={styles['fixed']}>
               <div className={styles['state']}>
-              <AiOutlineShoppingCart size={50}/>
-                <p> No. of items	:	{this.state.value}<p>Sub Total	:{(this.state.value)*40}$ 	</p></p>
+              <AiOutlineShoppingCart size={50} color={"#fff"}/>
+                <p> No. of items	:	{this.state.value}<p>Sub Total	: {(this.state.value)*40} $ 	</p></p>
               </div>
             </div>
           </div>
