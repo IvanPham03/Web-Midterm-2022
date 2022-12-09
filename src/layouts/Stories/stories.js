@@ -8,31 +8,59 @@ export default class stories extends Component {
     return (
       <ScrollContainer>
         <ScrollPage>
-          <Animator animation={batch(Fade(), Move())}>
-            <span>
-              <div className='container-stories'>
+          <div className='temp'></div>
+          <span>
+            <div className='container-stories'>
+              <Animator animation={batch(Fade(), Move())}>
                 <Story1 />
-              </div>
-            </span>
-          </Animator>
+              </Animator>
+            </div>
+          </span>
         </ScrollPage>
         <ScrollPage>
-          <Animator animation={batch(Fade(), Move())}>
-            <span>
-              <div className='container-stories'>
+          <span>
+            <div className='container-stories'>
+              <Animator animation={batch(Fade(), Move())}>
                 <Story2 />
-              </div>
-            </span>
-          </Animator>
+              </Animator>
+            </div>
+          </span>
         </ScrollPage>
         <ScrollPage>
-          <Animator animation={batch(Fade(), Move())}>
-            <span>
+          <span>
+            <Animator animation={batch(Fade(), Move())}>
               <div className='container-stories'>
                 <Story3 />
               </div>
-            </span>
-          </Animator>
+            </Animator>
+          </span>
+        </ScrollPage>
+        <ScrollPage>
+          <span>
+            <div className='container-stories'>
+              <Animator animation={batch(Fade(), Move())}>
+                <Story1 />
+              </Animator>
+            </div>
+          </span>
+        </ScrollPage>
+        <ScrollPage>
+          <span>
+            <div className='container-stories'>
+              <Animator animation={batch(Fade(), Move())}>
+                <Story2 />
+              </Animator>
+            </div>
+          </span>
+        </ScrollPage>
+        <ScrollPage>
+          <span>
+            <Animator animation={batch(Fade(), Move())}>
+              <div className='container-stories'>
+                <Story3 />
+              </div>
+            </Animator>
+          </span>
         </ScrollPage>
       </ScrollContainer>
     );

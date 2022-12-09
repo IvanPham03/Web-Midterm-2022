@@ -4,7 +4,6 @@ import face from '../../../assets/images/face.svg'
 import ins from '../../../assets/images/ins.svg'
 import styles from './footer.module.css'
 import { Link } from 'react-router-dom'
-import logo from '../../../assets/images/logo.png'
 
 export default class footer extends Component {
   render() {

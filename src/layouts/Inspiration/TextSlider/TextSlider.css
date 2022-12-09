@@ -1,9 +1,9 @@
 .main {
-  height: 800px;
+  height: 600px;
   text-align: center;
   margin: 0px auto;
   color: #fff;
-  padding: 100px;
+  /* padding: 100px; */
 }
 .flex_row {
   justify-content: center;
@@ -24,7 +24,7 @@
 }
 .dot {
     padding: 8px;
-    margin: 80px 20px;
+    margin: 80px 20px 0 20px;
     border-radius: 50%;
     background-color: #fff;
 }

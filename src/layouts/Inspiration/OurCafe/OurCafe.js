@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import caycafe1 from '../../../assets/images/cafe.jpg';
-import caycafe2 from '../../../assets/images/caycafe.jpeg';
+import caycafe1 from '../../../assets/images/beancafe.jpg';
+import caycafe2 from '../../../assets/images/anhmoi.jpg';
 import styles from './OurCafe.module.css'
 export default class OurCafe extends Component {
     render() {
@@ -13,6 +13,9 @@ export default class OurCafe extends Component {
                     </div>
                     <div className={styles['our-coffee-2']}>
                         <img src={caycafe2} alt='outr-coffee__img1'></img>
+                        <span>
+                            <p>A café is a type of restaurant which typically serves coffee and tea, in addition to light refreshments such as baked goods or snacks.</p>
+                        </span>
                     </div>
                 </div>
             </>

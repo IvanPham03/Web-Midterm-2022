@@ -11,14 +11,6 @@ export default class inspiration extends Component {
     return (
       <ScrollContainer>
         <ScrollPage>
-          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
-            <span><div className={styles['intro']}>
-              <p>Catherine's <br></br> Coffee house</p>
-              <p>A community house<br></br> Supporting health & education</p>
-            </div></span>
-          </Animator>
-        </ScrollPage>
-        <ScrollPage>
           <div className={styles['imageIntro']}>
             <Animator animation={batch(Fade(), Move(), MoveOut(0, -200))}>
               <br></br>
@@ -30,13 +22,21 @@ export default class inspiration extends Component {
           </div>
         </ScrollPage>
         <ScrollPage>
-          <Animator animation={batch(Fade(), Move(), ZoomIn(), MoveOut(0, -200))}>
-            <span><TextSlider /></span>
+          <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
+            <span><div className={styles['intro']}>
+              <p>Catherine's <br></br> Coffee house</p>
+              <p>A community house<br></br> Supporting health & education</p>
+            </div></span>
           </Animator>
         </ScrollPage>
         <ScrollPage>
-          <Animator animation={batch(ZoomIn(), FadeIn())}>
+          <Animator animation={batch(Move(), Fade())}>
             <span><OurCafe /></span>
+          </Animator>
+        </ScrollPage>
+        <ScrollPage>
+          <Animator animation={batch(Fade(), Move(), MoveOut(0, -200))}>
+            <span><TextSlider /></span>
           </Animator>
         </ScrollPage>
       </ScrollContainer>

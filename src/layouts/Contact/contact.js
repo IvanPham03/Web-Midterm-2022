@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import styles from './contact.module.css';
 
-
-
-
 export default class contact extends Component {
   render() {
     return (
@@ -17,24 +14,20 @@ export default class contact extends Component {
               <form >
                   <h3>Get in touch</h3>
                   <div className={styles["inputBox"]}>
-                    <span></span>
                     <input type="text" placeholder="name" />
                   </div>
                   <div className={styles["inputBox"]}>
-                      <span className="fas fa-envelope"></span>
                       <input type="email" placeholder="email" />
                   </div>
                   <div className={styles["inputBox"]}>
-                      <span class="fas fa-phone"></span>
                       <input type="number" placeholder="number" />
                   </div>
                   <div className={styles["inputBox"]}>
-                      <span className="fas fa-message"></span>
                       <textarea name="" placeholder="message" ></textarea>
                   </div>
                   <input type="submit" value="contact now" className={styles["btn"]}></input>
               </form>
-            </div>
+            </div>fa
             </div>
       </div>
 
