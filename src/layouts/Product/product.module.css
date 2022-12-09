@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600&display=swap");
+
+.product {
+    font-family: "Urbanist", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* padding: 4rem 0; */
+    padding: auto;
+    
+ }
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.img-box img {
+    display: block;
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+ }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 5rem;
+    text-align: center;
+    width: 80%;
+    margin: auto
+ }
+ 
+ .card {
+    display: block;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+ }
+ 
+ .card-content {
+    position: absolute;
+    background-color: rgb(0 0 0 / 70%);
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+    padding: 0.2rem 0;
+    overflow: hidden ;
+    transition: 0.7s;
+ }
+ .card-content h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+ }
+ 
+ .card-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 1.2rem;
+ }
+ 
+ .card-content:hover {
+    height: 100%;
+    transition: 0.7s;
+ }
+ .heading{
+   text-align: center;
+   color:#fff;
+   text-transform: uppercase;
+   padding-bottom: 3.5rem;
+   font-size: 4rem;
+}
+
+.heading span{
+   text-transform: uppercase;
+   color: #d3ad7f;
+}
+/* .buy{
+   display: inline-block;
+   padding:.10rem 3rem;
+   font-size: 1.7rem;
+   color:#fff;
+   background: #d3ad7f;
+   cursor: pointer;
+   border-radius: 5%;
+} */
+.buy:hover{
+   letter-spacing: .2rem;
+}
+button.buy {
+   background: #d3ad7f;
+   border: none;
+   height: 40px;
+   padding:.10rem 3rem;
+   color: #ffffff;
+   font-size: 1.7rem;
+   font-weight: 300;
+   border-radius: 5%;
+   
+}
+
+button.buy:hover {
+   cursor: pointer;
+   background: #d3ad7f;
+}
+
+button:active {
+   outline: none;
+   border: none;
+}
+
+.product .fixed{
+   position: fixed;
+   bottom: 2rem;
+   right: 3rem;
+   border-radius: 100%;
+   width: auto;
+   text-align: center;
+   
+}
+
+

@@ -1,22 +1,23 @@
 .contact .row{
     display: flex;
-    /* background:var(--black); */
+    background:#161616;
     flex-direction: row;
     gap:1rem;
     margin-left: 7em;
     margin-right: 7rem;
+    margin-bottom: 7rem;
 }
 .contact .row .column{
     float: left;
     width: 50%;
     margin-top: 6px;
-    padding: 20px;
 }
 .contact h1{
     text-align: center;
     text-transform: uppercase;
     font-size: 3.5rem;
     color: #fff;
+    margin: 2rem;
 }
 .contact .heading span{
     color: #d3ad7f;
@@ -48,16 +49,10 @@
     align-items: center;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    /* background:var(--bg); */
     border: #fff;
+    background:#010103;
+    border:.1rem solid rgba(255,255,255,.3);
 }
-
-.contact .row form .inputBox span{
-    color:#fff;
-    font-size: 2rem;
-    padding-left: 2rem;
-}
-
 .contact .row form .inputBox input{
     width: 100%;
     padding:1rem;
@@ -76,12 +71,12 @@
     background:none;
     border: solid 1px #fff;
 }
-.contact .row .column .btn{
+.btn{
     display: inline-block;
     padding:.9rem 3rem;
     font-size: 1.4rem;
     color:#fff;
-    background: var(--main-color);
+    background: #d3ad7f;
     cursor: pointer;
     border: solid 1px #fff;
 }
