@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styles from './product.module.css';
-// import item1 from '../../assets/images/item1.svg'
+import item1 from '../../assets/images/2560px-Agua_Panela_con_Queso_Fresco_at_La_Puerta_Falsa_(5617496209).jpg'
 // import item2 from '../../assets/images/item2.svg'
 // import item3 from '../../assets/images/item3.svg'
 // import item4 from '../../assets/images/item4.jpg'
@@ -49,7 +49,7 @@ export default class product extends Component {
               items.map((item) => (
                 <div className={styles["card"]} key={item.id}>
                   <div className={styles["img-box"]}>
-                    <img src={item.image} alt='item' />
+                    <img src={item.id === 20? item1:item.image} alt='item' />
                   </div>
                   <div className={styles["card-content"]}>
                     <h3 className={styles["card-heading"]}>{item.title}</h3>
